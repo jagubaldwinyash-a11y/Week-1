@@ -130,7 +130,9 @@ for loops
 # Iterate over a range
 
 for i in {1..10}; do
+
   echo "Attempt $i"
+  
 done
 
 # Iterate over files
@@ -144,7 +146,7 @@ done
 
 # C-style for loop
 
-for ((i=0; i<5; i++)); do
+for ((i=0; i<5; i++));  do
 
   echo "Index: $i"
   
